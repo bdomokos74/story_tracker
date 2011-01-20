@@ -29,9 +29,11 @@ gem 'omniauth'
 # and rake tasks are available in development mode:
 group :development do
   gem 'rspec-rails', '2.3.0'
+  gem 'faker', '0.3.1'
 end
 
 group :test do
   gem 'rspec', '2.3.0'
   gem 'webrat', '0.7.1'
+  gem 'factory_girl_rails', '1.0'
 end
